@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+}
+
+
+header {
+    overflow: hidden;
+}
+
+.container {   
+    background:linear-gradient(rgba(58, 56, 56, 0.7),rgba(58, 56, 56, 0.7)), url(./img/hero1.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+
+.recipe-box {   
+    text-align: center;
+    padding: 1.6rem 5rem;
+}
+
+.recipe-box h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+   
+
+}
+
+.recipe-box input {
+    width: 16rem;
+    padding: .3rem .5rem;
+    outline: none;
+    border-width: 0px;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border: 2px solid #e67e22;
+    margin-bottom: 1rem;
+    background: rgba(106, 107, 109, .3);    
+    color: #fff;
+    
+}
+
+ .recipe-box input::placeholder {
+    text-align: left;
+}
+   
+
+.recipes-container {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+overflow-y: auto;
+height: 70%;
+width: 50%;
+}
+
+.recipe {
+    text-align: center;
+    margin-bottom: .7rem;
+    
+}
+
+.recipe a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #e67e22;
+    padding: .2rem 0;   
+}
+
+.recipe p {
+    font-size: .8rem;
+    margin-top: .4rem;
+}
+
+
+.btn {
+    display: inline-block;
+    background: #e67e22;
+    border: none;
+    border-width: 0px;
+    width: 16rem;
+    padding: .5rem 0;
+    border-radius: 10px;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #df7920da;
+}
+
+
+

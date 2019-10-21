@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: #fff;
+}
+
+
+header {
+    overflow: hidden;
+}
+
+.container {   
+    background:linear-gradient(rgba(58, 56, 56, 0.7),rgba(58, 56, 56, 0.7)), url(./img/5.jpg) no-repeat;    
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.add-recipe {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+
+.add-recipe input {
+    width: 70%;
+    padding: .3rem .5rem;
+    outline: none;   
+    font-size: 1.4rem;
+    border-radius: 5px;
+    border: 2px solid #e67e22;
+    margin-bottom: 1rem;
+    background: rgba(106, 107, 109, .3);    
+    color: #fff;
+}
+
+.add-recipe input::placeholder {
+    color: #fff;
+}
+
+
+.add-recipe textarea {
+    width: 70%;
+    height: 6rem;
+    padding: .3rem .5rem;
+    outline: none;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background: rgba(106, 107, 109, .3);    
+    color: #fff;
+
+}
+
+.add-recipe textarea::placeholder {
+    color: #fff;
+}
+
+
+.ingredients {
+    margin: auto;
+    width: 35%;
+    max-height: 30%;
+    overflow-y: auto;
+}
+
+.ingredients h2 {
+    font-size: 2rem;
+}
+
+.ingredients-list li {
+    padding: .2rem 0;
+}
+
+.ingredients-list li input {
+    border: none;
+    width: 14px;
+    height: 14px;
+    margin-right: .5rem;
+}
+
+.ingredients-list li span {
+    margin-right: .5rem;
+}
+
+.ingredients-list button {
+    height: 20px;
+    width: 20px;
+    background: #e67e22;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#add-ingredient-form {
+    padding: 1rem;
+}
+
+#add-ingredient-form input {
+    background: rgba(106, 107, 109, .3);    
+    color: #fff;
+    outline: none;
+    border: 2px solid #e67e22;
+    padding: .3rem .5rem;
+    border-radius: 5px;
+    margin-right: .5rem;
+}
+
+#add-ingredient-form button {
+    padding: .3rem .5rem;
+    background: #e67e22;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.delete-recipe {
+    margin: auto;
+    width: 35%;
+}
+
+.delete-recipe h2 {
+    font-size: 2rem;
+}
+
+#delete-recipe {
+    display: inline-block;
+    background: red;
+    border: none;
+    border-width: 0px;
+    width: 16rem;
+    padding: .5rem 0;
+    border-radius: 10px;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
