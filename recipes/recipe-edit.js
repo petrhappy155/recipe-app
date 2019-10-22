@@ -37,7 +37,7 @@ document.querySelector('#recipe-text-edit').addEventListener('input', function (
     saveRecipe(recipes)
 })
 
-document.querySelector('#delete-recipe').addEventListener('click', function () {
+document.querySelector('#delete-recipe-btn').addEventListener('click', function () {
     let recipeIndex = recipes.findIndex(function (recipe) {
         return recipe.id === thisRecipe.id
     })

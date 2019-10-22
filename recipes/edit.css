@@ -137,7 +137,7 @@ header {
     font-size: 2rem;
 }
 
-#delete-recipe {
+#delete-recipe-btn {
     display: inline-block;
     background: red;
     border: none;
@@ -151,5 +151,41 @@ header {
     text-transform: uppercase;
     transition-duration: .3s;
     cursor: pointer;
+    transition-duration: .3s;
 }
 
+#delete-recipe-btn:hover {
+    background: rgb(150, 3, 3);
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 940px) {
+    .add-recipe {
+        width: 50%;
+    }
+
+    .ingredients {
+        width: 50%
+    }
+
+    
+   }
+
+   @media only screen and (max-width: 660px) {
+    #add-ingredient-form input {
+        margin-bottom: 1rem;
+    }
+
+    .delete-recipe {
+        width: 50%;
+    }
+   }
+
+   @media only screen and (max-width: 480px) {
+       #delete-recipe-btn {
+        width: 100%;
+        padding: .3rem 1.5rem;
+        
+       }
+   }

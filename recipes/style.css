@@ -111,3 +111,8 @@ width: 50%;
 
 
 
+@media only screen and (max-width: 420px) {
+   .recipe-box {
+       padding: 1.6rem 0;
+   }
+  }
